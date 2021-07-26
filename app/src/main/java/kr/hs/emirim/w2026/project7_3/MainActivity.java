@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
                     editEmail = dialogV.findViewById(R.id.dialog_edit_email);
                     editMainName.setText(editName.getText().toString());
                     editMainEmail.setText(editEmail.getText().toString());
+
                 }
             });
             dialog.setNegativeButton("취소", new DialogInterface.OnClickListener() {
